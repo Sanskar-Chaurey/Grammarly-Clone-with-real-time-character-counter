@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> character Counter App</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div>
+        <nav>
+            <img src="./logo.png" alt="">
+            <h1>Grammarly</h1>
+        </nav>
+    </div>
+<hr>
+    <div class="container">
+        
+        <h2>Real Time Character Counter</h2>
+        <p>
+            Check your english text for grammar, spelling & punctuation error with sanskar chaurey
+           <br> real time character counter.
+        </p>
+
+        <textarea 
+            id="textarea" 
+            class="textarea" 
+            maxlength="250" 
+            placeholder="Please Write here"
+            ></textarea>
+
+    <button onclick="copyText()"> copy Text </button>
+
+        <div class="counter-container">
+            <p>
+                Total character: <span id="total-counter">0</span>
+            </p>
+            <p>
+                Remaining character: <span id="remaining-counter">250</span>
+            </p>
+        </div>
+    <!-- <footer> //sanskar chaurey</footer> -->
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
